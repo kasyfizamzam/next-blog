@@ -1,3 +1,5 @@
+import styles from "./comments.module.css";
+
 export const Comments = () => {
-  return <div>Comments</div>;
+  return <div className={styles.container}>Comments</div>;
 };

@@ -1,3 +1,5 @@
+import styles from "./card.module.css";
+
 export const Card = () => {
-  return <div>Card</div>;
+  return <div className={styles.container}>Card</div>;
 };
